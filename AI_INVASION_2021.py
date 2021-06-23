@@ -27,6 +27,19 @@ df = pd.DataFrame(dict_data)
 df
 
 
+# In[7]:
+
+
+csv_df = pd.read_csv('Documents/AI_INVASION/AI_Invasion.csv')
+csv_df
+
+
+# In[8]:
+
+
+Excel_df = pd.read_excel('Documents/AI_INVASION/AI_Invasion.xlsx')
+Excel_df
+
 
 # In[ ]:
 
